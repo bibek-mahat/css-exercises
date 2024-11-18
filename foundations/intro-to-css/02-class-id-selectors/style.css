@@ -1,17 +1,17 @@
-.n1,.n3,.n5{
+.odd{
     background-color: rgb(213, 98, 155);
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
-#n2{
+#two{
     color: rgb(53, 53, 163);
     font-size: 36px;
 }
-.n3,#n4{
+.adjust-font-size{
     font-size: 24px;
 }
 
-#n4{
+#four{
     background-color: rgb(93, 171, 93);
     font-weight: bold;
 }
