@@ -23,6 +23,8 @@ button {
   background: #eee;
   padding: 10px;
   margin-top: 10px;
+
+  padding: 8px 16px;
 }
 
 input {
@@ -35,48 +37,50 @@ input {
 
 ul {
   list-style-type: none; /* removes css default bullets */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
  
 }
 
 a{
-  color: black;
+  color: #666;
   text-decoration: none;
 }
 
 
 .footer{
-  display: flex;
-  justify-content: space-between;
+  
   background-color: #eeeeee;
 
  
   
 }
 
-.header{
+.header, .footer{
   display: flex;
   justify-content: space-between;
+  padding: 16px;
   
 }
-.left-links, .right-links{
+/* .left-links, .right-links{
   display: flex;
   gap:10px;
   margin-right: 20px;
   flex-shrink: 0;
   
-}
+} */
 
 .content{
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  /* flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto; */
+  gap: 16px;
 
-  flex: 1 0 auto;
+
+  flex: 1;
 
 }
 
